@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(201, 197, 197);
+    font-family: Arial, sans-serif;
+
+}
+
+h1{
+    font-size: 2.5em;
+    margin: 1em;
+}
+
+#Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.3rem solid;
+    border-radius: 2em;
+    padding: 2em;
+    background-color: rgb(255, 255, 255);
+  
+}
+
+#display{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+    color: rgb(130, 128, 128);
+}
+
+#controls button{
+ font-size: 1.5rem;
+ font-weight: bold;
+ padding: 0.2em 1em;
+ margin: 0.3rem;
+ border-radius: 1em;
+ border: none;
+ cursor: pointer;
+}
+
+#start{
+    background-color:rgb(201, 7, 7);
+}
+#reset{
+    background-color: rgb(17, 157, 17);
+}   
+#stop{
+    background-color: rgb(13, 13, 168);
+}
+
+#start:hover{
+    background-color: rgb(255, 1, 39);
+}
+#reset:hover{
+    background-color: rgb(0, 255, 0);
+}
+#stop:hover{
+    background-color: rgb(0, 0, 255);
+}
